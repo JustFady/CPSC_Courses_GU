@@ -1,0 +1,2 @@
+C:\Users\Faster\Desktop\CS133\CLinkedListProject\Debug\CLinkedListProject.exe
+C:\Users\Faster\Desktop\CS133\CLinkedListProject\Debug\CLinkedListProject.pdb
