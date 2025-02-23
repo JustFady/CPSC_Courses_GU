@@ -1,0 +1,2 @@
+C:\Users\Faster\Documents\CS132\DateProject\Debug\DateProject.exe
+C:\Users\Faster\Documents\CS132\DateProject\Debug\DateProject.pdb

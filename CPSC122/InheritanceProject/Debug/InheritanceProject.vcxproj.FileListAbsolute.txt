@@ -1,0 +1,2 @@
+C:\Users\Faster\Documents\CS132\InheritanceProject\Debug\InheritanceProject.exe
+C:\Users\Faster\Documents\CS132\InheritanceProject\Debug\InheritanceProject.pdb
