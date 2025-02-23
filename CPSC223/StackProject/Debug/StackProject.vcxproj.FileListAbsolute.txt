@@ -1,0 +1,2 @@
+C:\Users\Faster\Desktop\CS133\StackProject\Debug\StackProject.exe
+C:\Users\Faster\Desktop\CS133\StackProject\Debug\StackProject.pdb

@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\linda\source\repos\graphproject\graphproject\main.cpp(38): warning C4018: '<': signed/unsigned mismatch
+c:\users\linda\source\repos\graphproject\graphproject\main.cpp(57): warning C4018: '<': signed/unsigned mismatch
+  GraphProject.vcxproj -> C:\Users\Linda\source\repos\GraphProject\Debug\GraphProject.exe

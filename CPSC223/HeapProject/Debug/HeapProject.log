@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Faster\Desktop\CS133\HeapProject\Source.cpp(25,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Faster\Desktop\CS133\HeapProject\Source.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+  HeapProject.vcxproj -> C:\Users\Faster\Desktop\CS133\HeapProject\Debug\HeapProject.exe
