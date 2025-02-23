@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HashMapProject", "HashMapProject\HashMapProject.vcxproj", "{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Debug|x64.ActiveCfg = Debug|x64
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Debug|x64.Build.0 = Debug|x64
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Debug|x86.Build.0 = Debug|Win32
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Release|x64.ActiveCfg = Release|x64
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Release|x64.Build.0 = Release|x64
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Release|x86.ActiveCfg = Release|Win32
+		{A8DDE0FC-CF8B-4EDB-B1AC-436A514AE25E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD473A2-6920-432C-969E-1B2C01131AA1}
+	EndGlobalSection
+EndGlobal
