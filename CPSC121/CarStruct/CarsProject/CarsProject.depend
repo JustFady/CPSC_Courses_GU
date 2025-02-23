@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1604530493 source:c:\users\faster\documents\personal random c++ projects\carsproject\cars.c
+	"Cars.h"
+
+1604530493 c:\users\faster\documents\personal random c++ projects\carsproject\cars.h
+
+1604533767 source:c:\users\faster\documents\personal random c++ projects\carsproject\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cars.h"
+

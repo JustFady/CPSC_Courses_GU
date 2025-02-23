@@ -1,0 +1,90 @@
+/******************************************
+* Project: SumProject
+* File: Main.c
+* Author: Fady Youssef
+* Date: 09/28/2020
+* Description: This program outputs the sum of 2 integers
+******************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//function prototypes
+void displayIntro();
+int getIntInput();
+double addTwo(int num1, int num2);
+void displayResults(int num1, int num2, double sum);
+/******************************************
+Function: Main
+Description: Controls the main flow of the program
+             and calls the necessary functions.
+******************************************/
+int main()
+{
+    //declare variables
+    char again = 'N';
+    int n1 = 0,
+        n2 =0;
+    double sum = 0.0;
+    //sum user numbers
+    displayIntro();
+
+do
+{
+    n1 = getIntInput();
+    n2 = getIntInput();
+    sum = addTwo(n1,n2);
+    displayResults(n1,n2,sum);
+    printf("Again? (Y/N): ");
+    scanf("%c", &again);
+}
+while (again == 'Y');
+//exit without error
+return 0;
+}
+/******************************************
+Function: displayIntro
+Description: Tells the user what the program does and what to input
+******************************************/
+
+void displayIntro()
+{
+    printf("%s", "This program adds two integers and reports the sum "
+                "as a double. \n\n");
+}
+/******************************************
+Function:getIntInput
+Description:Asks the user to enter an integer then scans both integers
+******************************************/
+
+int getIntInput()
+{
+    int num = 0;
+    printf("%s", "Enter an integer: ");
+    scanf("%d", &num);
+    while(getchar() != '\n');
+    return num;
+}
+/******************************************
+Function: addTwo
+Description: This function adds two integers and
+              returns the sum as a double
+Input: int num1 - one of the numbers to add
+       int num2 - the other number to add
+Output: double - the sum of num1 and num2
+******************************************/
+
+double addTwo(int num1, int num2)
+{
+    return (double)(num1 + num2);
+}
+/******************************************
+Function: displayResults
+Description: This function shows the math line along with the final sum
+Output: num1 + num2 = sum
+******************************************/
+
+void displayResults(int num1, int num2, double sum)
+{
+    printf("%d + %d = %f\n", num1, num2, sum);
+}

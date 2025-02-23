@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1604466612 source:c:\users\faster\documents\personal random c++ projects\shapesprojectfile\shapes.c
+	"Shapes.h"
+
+1604466827 source:c:\users\faster\documents\personal random c++ projects\shapesprojectfile\main.c
+	<stdio.h>
+	<stdlib.h>
+	"shapes.h"
+
+1604466594 c:\users\faster\documents\personal random c++ projects\shapesprojectfile\shapes.h
+

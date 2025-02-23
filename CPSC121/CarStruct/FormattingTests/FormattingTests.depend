@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604462208 source:c:\users\faster\documents\personal random c++ projects\formattingtests\main.c
+	<stdio.h>
+	<stdlib.h>
+
