@@ -1,0 +1,7 @@
+﻿  BST.c
+  Main.c
+  Generating Code...
+c:\users\linda\documents\teaching\cs133\181904-spring2019\labs\lab4\bstproject\bstproject\bst.c(47): warning C4716: 'inOrderList': must return a value
+c:\users\linda\documents\teaching\cs133\181904-spring2019\labs\lab4\bstproject\bstproject\bst.c(58): warning C4716: 'recursiveContains': must return a value
+c:\users\linda\documents\teaching\cs133\181904-spring2019\labs\lab4\bstproject\bstproject\bst.c(87): warning C4716: 'recursiveInsert': must return a value
+  BstProject.vcxproj -> C:\Users\Linda\Documents\Teaching\CS133\181904-Spring2019\Labs\Lab4\BstProject\x64\Debug\BstProject.exe
