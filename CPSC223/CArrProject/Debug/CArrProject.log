@@ -1,0 +1,6 @@
+﻿  Main.c
+C:\Users\Faster\Desktop\CS133\CArrProject\Main.c(9,19): warning C4013: 'calloc' undefined; assuming extern returning int
+C:\Users\Faster\Desktop\CS133\CArrProject\Main.c(18,9): warning C4013: 'realloc' undefined; assuming extern returning int
+C:\Users\Faster\Desktop\CS133\CArrProject\Main.c(28,6): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\Faster\Desktop\CS133\CArrProject\Main.c(9,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+  CArrProject.vcxproj -> C:\Users\Faster\Desktop\CS133\CArrProject\Debug\CArrProject.exe
