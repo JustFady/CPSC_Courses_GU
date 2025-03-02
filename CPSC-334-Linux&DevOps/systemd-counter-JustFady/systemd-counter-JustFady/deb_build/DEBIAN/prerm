@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+# Check if running on macOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "Running pre-remove on macOS..."
+    # Only try to stop/unload if the plist file exists
+    if [ -f "/Library/LaunchDaemons/counter.plist" ]; then
+        sudo launchctl stop counter 2>/dev/null || true
+        sudo launchctl unload /Library/LaunchDaemons/counter.plist 2>/dev/null || true
+    fi
+    # Only try to delete user if it exists
+    if dscl . -read /Users/counter &>/dev/null; then
+        sudo dscl . -delete /Users/counter 2>/dev/null || true
+    fi
+else
+    echo "Running pre-remove on Linux..."
+    sudo systemctl stop counter.service 2>/dev/null || true
+    sudo systemctl disable counter.service 2>/dev/null || true
+
+    # Remove the system user if it exists
+    if id "counter" &>/dev/null; then
+        sudo userdel counter 2>/dev/null || true
+    fi
+fi

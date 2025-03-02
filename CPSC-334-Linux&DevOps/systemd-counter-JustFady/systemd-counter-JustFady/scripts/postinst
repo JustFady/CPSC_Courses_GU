@@ -1,0 +1,26 @@
+#!/bin/bash
+set -e
+
+# Check if running on macOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "Running post-install on macOS..."
+    if ! id "counter" &>/dev/null; then
+        sudo dscl . -create /Users/counter
+        sudo dscl . -create /Users/counter UserShell /usr/bin/false
+        sudo dscl . -create /Users/counter NFSHomeDirectory /var/empty
+    fi
+
+    # Load and start the service using launchctl
+    sudo launchctl load /Library/LaunchDaemons/counter.plist || true
+    sudo launchctl start counter
+else
+    echo "Running post-install on Linux..."
+    if ! id "counter" &>/dev/null; then
+        sudo useradd --system --no-create-home counter || true
+    fi
+
+    # Enable and start systemd service
+    sudo systemctl daemon-reload
+    sudo systemctl enable counter.service
+    sudo systemctl start counter.service
+fi
