@@ -1,0 +1,3 @@
+[submodule "CPSC326-OPL/OurPL-Lang"]
+	path = CPSC326-OPL/OurPL-Lang
+	url = https://github.com/JustFady/OurPL-Lang.git
